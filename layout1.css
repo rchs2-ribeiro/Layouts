@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
+}
+
+.Header{
+    display: flex;
+    background-color: blue;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main{
+    display: flex;
+    background: linear-gradient(blue, brown, aquamarine);
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+display: flex;
+background-color: aquamarine;
+height: 10%;
+align-items: center;
+justify-content: center;
+}
