@@ -1,185 +1,125 @@
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; }
+ 
 body{
-  display:flex;
-  flex-direction: row;
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
+   display: flex;
+   flex-wrap: wrap;
+   height: 100vh;
+   gap: 1px;
 }
-.nav{
-  background-color: rosybrown;
-  height:100vh;
-  width: 10vw;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
+ 
+nav{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 10vw;
+   gap: 15px;
+   background-color: black;
 }
-.Link1{
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  background-color: red;
-  margin: 10px;
-  height: 5vh;
-  width: 7vw;
+ 
+.caixa-dos-links{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1px;
+   width: 4vw;
+   height: 4vh;
+   background-color: white;
+   color: purple;
+   font-size: 16px;
 }
-.Link2{
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  background-color: red;
-  margin: 10px;
-  height: 5vh;
-  width: 7vw;
+ 
+.dados-superior-e-inferior{
+   display: flex;
+   flex-direction: column;
+   flex-grow: 2;
 }
-.Link3{
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  background-color: red;
-  margin: 10px;
-  height: 5vh;
-  width: 7vw;
+ 
+header{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-grow: 1;
+   background-color: red;
 }
-.Link4{
- display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: red;
-  margin: 10px;
-  height: 5vh;
-  width: 7vw;
+ 
+.dados-centrais{
+   display: flex;
+   flex-direction: row;
+   flex-grow: 10;
 }
-.Link5{
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  background-color: red;
-  margin: 10px;
-  height: 5vh;
-  width: 7vw;
+ 
+article{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-grow: 1;
+   gap: 100px;
+   background-color: white;
 }
-.Link6{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: red;
-  margin: 10px;
-  height: 5vh;
-  width: 7vw;
-}
-.Header{
-  display: flex;
-  flex-direction: column;
-}
-.header{
-  display: flex;
-  height:10vh;
-  width: 100vw;
-  background-color: red;
-  justify-content: center;
-  align-items: center;
-}
-.main{
-  display: flex;
-  flex-direction: row;
-  height: 80vh;
-  width: 100vw;
-}
-.Article{
-  background-color: aquamarine;
-  height: 80vh;
-  width: 80vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.article1{
-  background-color: brown;
-  height: 20vh;
-  width: 40vw;
-  margin-top: 20px;
-}
-.article2{
-  margin-top: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.article3{
-  background-color: bisque;
-  height: 15vh;
-  width: 25vw;
-  margin: 30px;
-  
-}
-.article4{
-  background-color:bisque;
-  height: 15vh;
-  width: 25vw;
- margin: 30px;
-}
-.Aside{
-  background-color: bisque;
-  width: 20vw;
-  height: 80vh;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-.aside1{
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  background-color: red;
-  margin-top: 50px;
-  height: 10vh;
-  width: 10vw;
-}
-.aside2{
-    display: flex;
-  align-items: center;
-  justify-content:  center; 
-  background-color: red;
-  margin-top: 50px;
-  height: 10vh;
-  width: 10vw;
-}
-.aside3{
-    display: flex;
- align-items: center;
-  justify-content: center; 
-  background-color: red;
-  margin-top: 50px;
-  height: 10vh;
-  width: 10vw;
-}
-.aside4{
-    display: flex;
-  align-items: center;
-  justify-content: center; 
-  background-color: red;
-  margin-top: 50px;
-  height: 10vh;
-  width: 10vw;
-}
-.Footer{
-  display: flex;
-  flex-direction: column; 
+ 
+.caixa-maior{
+   width: 35vw;
+   height: 30vh;
+   background-color: red;
 }
 
-.footer{
-  display: flex;
-  height:10vh;
-  width: 100vw;
-  background-color: red;
-  justify-content: center;
-  align-items: center;
+.linha-divisoria{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+}
+ 
+
+.caixas-menores{
+   width: 20vw;
+   height: 20vh;
+   background-color: black;
+}
+ 
+aside{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 10vw;
+   flex-shrink: 0;
+   background-color: black;
+}
+ 
+.caixa-dos-itens{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1px;
+   width: 4vw;
+   height: 8vh;
+   background-color: white;
+   color: purple;
+   font-size: 16px;
+}
+ 
+footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-grow: 1;
+   background-color: red;
+}
+ 
+.legenda{
+   color: white;
+   text-transform: uppercase;
+   font-size: 36px;
+   text-align: center;
 }
