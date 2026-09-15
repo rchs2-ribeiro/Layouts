@@ -9,7 +9,7 @@ body{
    height: 100vh;
    gap: 1px;
 }
- 
+
 nav{
    display: flex;
    flex-wrap: wrap;
